@@ -522,7 +522,8 @@ setDocument = Sizzle.setDocument = function( node ) {
 		div.firstChild.className = "i";
 		// Support: Opera<10
 		// Catch gEBCN failure to find non-leading classes
-		return div.getElementsByClassName("i").length === 2;
+		return div.getElementsByClassName("i").length === 2 &&
+        window['MooTools'] === undefined;
 	});
 
 	// Support: IE<10
