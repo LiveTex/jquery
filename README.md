@@ -1,3 +1,8 @@
+# To build Livetex jquery version:
+```
+grunt --force custom:-ajax,-deprecated
+```
+
 [jQuery](http://jquery.com/) - New Wave JavaScript
 ==================================================
 
