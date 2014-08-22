@@ -523,7 +523,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 		// Support: Opera<10
 		// Catch gEBCN failure to find non-leading classes
 		return div.getElementsByClassName("i").length === 2 &&
-        window['MooTools'] === undefined;
+				window['MooTools'] === undefined;
 	});
 
 	// Support: IE<10
