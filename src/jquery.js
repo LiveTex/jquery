@@ -28,7 +28,6 @@ define([
 	"./offset",
 	"./dimensions",
 	"./deprecated",
-	"./exports/amd",
 	"./exports/global"
 ], function( jQuery ) {
 
